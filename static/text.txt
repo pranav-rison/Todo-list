@@ -1,0 +1,22 @@
+brouser http get request flask matches it to hellow 
+world function function executes return value captured response 
+is generated given it to brouser 
+brousers displace stl 
+
+
+static: 
+http://127.0.0.1:5000/static/text.text    same for image 
+not rendered not change
+from server side bot goint to change 
+
+template:
+template folder are render by flask during run time 
+
+wsgi => web server getway interface  => flask and jango used it 
+one angent handle one call
+
+asgi => ansercronous server getway interface   => fast api use it 
+parally many things are happning one agent handel many call
+
+
+

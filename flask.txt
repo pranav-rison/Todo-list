@@ -1,0 +1,48 @@
+1. Flask: 
+The "Do It Your Way" FrameworkFlask is a micro-framework. 
+It provides the bare essentials—routing, request handling, and templating—and then gets out of your way.Philosophy: Minimalist and unopinionated. 
+It doesn't force a database or folder structure on you.Flexibility: You choose your own tools (e.g., SQLAlchemy for databases, Marshmallow for validation).
+Best For: Small to medium applications, prototypes, or when you want total control over every component.
+
+2. Django:
+ The "Batteries Included" FrameworkDjango follows a "Don't Repeat Yourself" (DRY) philosophy. 
+It provides almost everything you need to build a complex web application right out of the box.
+Philosophy: Opinionated. It has a "Django way" of doing things (MTV pattern: Model-Template-View).
+Built-in Features: ORM (Database layer), Authentication system, a ready-to-use Admin Panel, and security features (CSRF/XSS protection).
+Best For: Large-scale, data-heavy applications (like E-commerce or Social Media) where development speed and security are top priorities.
+
+3. FastAPI: 
+The "Modern Performance" FrameworkFastAPI is a modern, high-performance framework based on standard Python type hints. 
+It is designed specifically for building APIs quickly.Philosophy: Efficiency and speed. It uses Asynchronous (async/await) programming to handle many concurrent connections.
+Key Features: Automatic interactive documentation (Swagger UI), high speed (comparable to Node.js and Go), and strict data validation using Pydantic.
+Best For: Microservices, high-performance APIs, and AI/ML model serving.
+
+Feature,Flask,Django,FastAPI
+Category,       Micro-framework,    Full-stack framework,               API-focused
+Flexibility,    Extremely High,     "Moderate (The ""Django Way"")",    High
+Learning Curve, Low,                 High (Lots to learn),              Moderate
+Performance,    Good,               Moderate,                           Excellent (Async)
+Admin Panel,    No (Needs plugins)  ,Yes (Built-in),                    No
+
+
+
+python -m venv flaskvenv
+flaskvenv\Scripts\activate
+
+2nd way for venv 
+pip3 install virtualenv
+virtualenv .name
+name\Scripts\activate
+
+pip install flask
+pip3 install flask-sqlalchemy 
+
+
+
+brouser http get request flask matches it to hellow world function function executes return value captured response is generated given it to brouser 
+brousers displace stl 
+
+
+
+
+
