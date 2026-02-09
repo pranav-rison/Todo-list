@@ -38,13 +38,11 @@ project/
 └── README.md
 
 
----
 
 ## 🚀 Getting Started
 
 ### 1️⃣ Clone the Repository
 
-```bash
 git clone https://github.com/your-username/flask-todo-app.git
 cd flask-todo-app
 
