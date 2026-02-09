@@ -38,15 +38,16 @@ project/
 └── README.md
 
 
-
+```
 ## 🚀 Getting Started
 
 ### 1️⃣ Clone the Repository
-
+```
 git clone https://github.com/your-username/flask-todo-app.git
 cd flask-todo-app
 
 2️⃣ Create Virtual Environment
+```
 python -m venv flaskvenv
 
 Activate it:
@@ -55,7 +56,7 @@ Windows
 flaskvenv\Scripts\activate
 Mac / Linux
 source flaskvenv/bin/activate
-
+```
 3️⃣ Install Dependencies
 pip install flask flask-sqlalchemy
 
