@@ -27,7 +27,7 @@ Tasks are stored using **SQLite + SQLAlchemy**, and the interface is optimized f
 ---
 
 ## 📁 Project Structure
-
+```
 project/
 │
 ├── app.py
@@ -45,26 +45,34 @@ project/
 ```
 git clone https://github.com/your-username/flask-todo-app.git
 cd flask-todo-app
-
+```
 2️⃣ Create Virtual Environment
 ```
 python -m venv flaskvenv
-
+```
+```
 Activate it:
-
+```
 Windows
+```
 flaskvenv\Scripts\activate
+```
 Mac / Linux
+```
 source flaskvenv/bin/activate
 ```
 3️⃣ Install Dependencies
+```
 pip install flask flask-sqlalchemy
-
+```
 4️⃣ Run the App
+```
 flask run
+```
 or
+```
 http://127.0.0.1:5000/
-
+```
 🗃️ Database
 
 Uses SQLite
@@ -74,11 +82,13 @@ Database file: instance/todo.db
 Tables are automatically created on first run
 
 💡 You can inspect the database using SQLite Viewer to see live task changes.
+```
 | Route          | Method | Description       |
 | -------------- | ------ | ----------------- |
 | `/`            | GET    | Display all tasks |
 | `/`            | POST   | Add a new task    |
 | `/delete/<id>` | GET    | Delete a task     |
+```
 
 📸 UI Preview
 
